@@ -15,8 +15,8 @@ class Config(object):
  
     # other configs
     BOT_UPTIME  = time.time()
-    START_PIC   = os.environ.get("START_PIC", "")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '').split()]
+    START_PIC   = os.environ.get("START_PIC", "https://graph.org/file/f7ac59ec7f0e72c1c45bb.jpg")
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6300461900').split()]
 
     # channels logs
     FORCE_SUB   = os.environ.get("FORCE_SUB", "SB_Botz_Update") 
@@ -39,7 +39,7 @@ class Txt(object):
 
 ➻ This Bot Also Supports Custom Thumbnail And Custom Caption.
 
-<b>Bot Is Made By :</b> @Madflix_Bots"""
+<b>Bot Is Made By :</b> @SB_Botz_Update 💝"""
 
     ABOUT_TXT = """
 ╭───────────────⍟
